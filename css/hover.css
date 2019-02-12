@@ -1,0 +1,88 @@
+@media only screen and (min-width: 768px) {
+
+    .head-menu__link:hover,
+    .head-menu__link:focus{
+        background-color: transparent !important;
+        color: #d1381d;
+    }
+
+    .banner-btn:hover,
+    .banner-btn:focus {
+        background-color: #e04226;
+        border-color: #e04226;
+        color: #fff;
+    }
+
+    .head__footer-btn:hover,
+    .head__footer-btn:focus {
+        background-color: #fff;
+        border-color: #fff;
+        color: #e04226;
+    }
+
+    .help-btn:hover,
+    .help-btn:focus {
+        background-color: transparent;
+        border-color: #fff;
+        color: #fff;
+    }
+
+    .registration__btn:hover,
+    .registration__btn:focus,
+    .registration__btn:active,
+    .foot__form_btn:hover,
+    .foot__form_btn:focus,
+    .foot__form_btn:active,
+    .foot__form_btn:active:focus {
+        background-color: transparent;
+    }
+
+    .registration__btn:hover,
+    .registration__btn:focus {
+        border-color: #e04226;
+        color: #e04226;
+    }
+
+    .foot__form_btn:hover,
+    .foot__form_btn:focus {
+        border-color: #fff;
+        color: #fff;
+    }
+
+    .link-more:hover {
+        animation: shake 1s ease-in-out both;
+    }
+
+    .link-more:hover,
+    .link-more:focus {
+        color: #000;
+    }
+
+
+    .foot__social_icon-in:hover:before,
+    .foot__social_icon-fb:hover:before,
+    .foot__social_icon-yt:hover:before {
+        opacity: 0;
+    }
+
+    .foot__social_icon-in:hover:after,
+    .foot__social_icon-fb:hover:after,
+    .foot__social_icon-yt:hover:after {
+        opacity: 1;
+    }
+
+
+    @keyframes shake {
+        0% {
+            transform: translate3d(0, 0, 0);
+        }
+
+        33% {
+            transform: translate3d(7px, 0, 0);
+        }
+
+        66% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}
