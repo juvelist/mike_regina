@@ -521,9 +521,15 @@ a.link-more {
 
 .registration__input:focus,
 .registration__message:focus,
-.foot__form_input:focus{
+.foot__form_input:focus {
     border-color: #eb4a2d;
     box-shadow: none;
+}
+
+.registration__input:focus::-webkit-input-placeholder,
+.registration__message:focus::-webkit-input-placeholder,
+.foot__form_input:focus::-webkit-input-placeholder {
+    color: transparent !important;
 }
 
 .registration__input {
@@ -670,7 +676,6 @@ footer {
     transition: all .4s ease;
     vertical-align: top;
 }
-
 
 .foot__copyright {
     display: table;
