@@ -388,6 +388,11 @@ a.link-more {
     margin-bottom: 30px;
 }
 
+.testimonials__block {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
 .testimonials {
     background-color: #fff;
     border-radius: 5px;
